@@ -1,0 +1,20 @@
+﻿  Main.cpp
+c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\main.cpp(17): warning C4101: 'found': unreferenced local variable
+c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\linkedlist.h(53): warning C4101: 'tempLast': unreferenced local variable
+  c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\linkedlist.h(52): note: while compiling class template member function 'void LinkedList<int>::insert(T)'
+          with
+          [
+              T=int
+          ]
+  c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\main.cpp(23): note: see reference to function template instantiation 'void LinkedList<int>::insert(T)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\main.cpp(13): note: see reference to class template instantiation 'LinkedList<int>' being compiled
+c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\linkedlist.h(176): warning C4715: 'LinkedList<int>::findMinimum': not all control paths return a value
+c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\linkedlist.h(176): warning C4715: 'LinkedList<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::findMinimum': not all control paths return a value
+c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\linkedlist.h(176): warning C4715: 'LinkedList<bool>::findMinimum': not all control paths return a value
+c:\users\denze_000\documents\visual studio 2015\projects\gibson_linkedlist\gibson_linkedlist\linkedlist.h(88): warning C4715: 'LinkedList<int>::find': not all control paths return a value
+  Gibson_LinkedList.vcxproj -> C:\Users\denze_000\documents\visual studio 2015\Projects\Gibson_LinkedList\Debug\Gibson_LinkedList.exe
+  Gibson_LinkedList.vcxproj -> C:\Users\denze_000\documents\visual studio 2015\Projects\Gibson_LinkedList\Debug\Gibson_LinkedList.pdb (Full PDB)
